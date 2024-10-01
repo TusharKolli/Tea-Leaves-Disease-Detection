@@ -76,7 +76,7 @@ def main():
         
         gr.Markdown("<div class='footer'>Powered by Gradio</div>")
     
-    interface.launch()
+    interface.launch(share=True)
 
 if __name__ == "__main__":
     main()
